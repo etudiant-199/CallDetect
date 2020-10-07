@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="listpays">
+        <item>Selectionnez votre pays</item>
+        <item>Cameroun</item>
+        <item>France</item>
+        <item>Europe</item>
+        <item>Canada</item>
+    </string-array>
+
+    <string-array name="allProfessions">
+        <item>Etudiant</item>
+        <item>Enseignant</item>
+        <item>Developeur</item>
+        <item>Autre</item>
+    </string-array>
+
+    <string-array name="contactOptions1">
+        <item>Ajouter aux favoris</item>
+        <item>Bloquer</item>
+        <item>Supprimer</item>
+        <item>Modifier</item>
+        <item>Signaler</item>
+    </string-array>
+
+    <string-array name="contactOptions2">
+        <item>Ajouter aux favoris</item>
+        <item>Bloquer</item>
+        <item>Supprimer</item>
+        <item>Modifier</item>
+        <item>Signaler</item>
+        <item>Ajouter aux contacts</item>
+    </string-array>
+
+    <string-array name="theme_entries">
+        <item>Blanck</item>
+        <item>Noire</item>
+        <item>En fonction du niveau de baterie</item>
+    </string-array>
+
+    <string-array name="theme_entry_array_values">
+        <item>light</item>
+        <item>dark</item>
+        <item>default</item>
+    </string-array>
+
+    <string-array name="languages_entries">
+        <item>Français</item>
+        <item>English</item>
+    </string-array>
+
+    <string-array name="language_entry_array_values">
+        <item>fr</item>
+        <item>en</item>
+    </string-array>
+
+</resources>

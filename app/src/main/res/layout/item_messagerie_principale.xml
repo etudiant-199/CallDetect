@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="5sp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20sp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="0sp"
+            android:layout_height="45sp"
+            android:layout_weight="1.5"
+            android:layout_marginRight="5sp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/image"
+                android:src="@drawable/logo"
+                android:layout_gravity="center"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <TextView
+                android:id="@+id/firtLetter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D"
+                android:textColor="@color/blanc"
+                android:textSize="30sp"
+                app:layout_constraintLeft_toLeftOf="@id/image"
+                app:layout_constraintRight_toRightOf="@id/image"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+<!--            <de.hdodenhof.circleimageview.CircleImageView-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:id="@+id/icon_delete"-->
+<!--                android:src="@mipmap/icon_muutiple_selection"-->
+<!--                android:layout_gravity="center"-->
+<!--                app:layout_constraintRight_toRightOf="parent"-->
+<!--                app:layout_constraintLeft_toLeftOf="parent"-->
+<!--                app:layout_constraintTop_toTopOf="parent"/>-->
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <RelativeLayout
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="6.5">
+
+            <TextView
+                android:id="@+id/nomM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Oswald"
+                android:textSize="17sp"
+                android:textColor="@color/noir"
+                android:maxLines="1" />
+
+            <TextView
+                android:id="@+id/messageM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nomM"
+                android:text="Bonjpur danniele comment tu va ? c'eatait juste pour te dire que l'ecole commence le premier juin. en veneant tu me garde stp"
+                android:textSize="15sp"
+                android:textColor="@color/noir"/>
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/jourM"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="mar 26 juin"
+            android:textSize="10sp"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

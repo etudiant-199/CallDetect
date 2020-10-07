@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5sp"
+    android:orientation="horizontal"
+    android:padding="5sp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="8">
+            <TextView
+                android:id="@+id/nomContact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nom"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:textColor="@color/noir"/>
+            <TextView
+                android:id="@+id/numeroTel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/nomContact"
+                android:text="+237 670857806"
+                android:textSize="15sp"
+                android:layout_marginTop="3sp"/>
+        </RelativeLayout>
+
+        <ImageButton
+            android:id="@+id/deverouiller"
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            app:srcCompat="@drawable/img_lock_open"
+            android:background="@color/transparant"
+            android:layout_weight="2"
+            android:layout_gravity="center_vertical"
+             />
+
+    </LinearLayout>

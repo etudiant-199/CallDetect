@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:icon="@drawable/ic_language"
+        android:title="@string/language">
+        <ListPreference
+            android:defaultValue="fr"
+            android:dialogTitle="@string/chose_language"
+            android:entries="@array/languages_entries"
+            android:entryValues="@array/language_entry_array_values"
+            android:fitsSystemWindows="true"
+            android:key="language_key_pref"
+            android:title="@string/language_chose"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

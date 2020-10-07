@@ -1,0 +1,264 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">CallDetect</string>
+    <string name="slogan">"Démasquer les appels inconnus automatiquement. "</string>
+    <string name="entrerNumero">Numéro de téléphone</string>
+    <string name="entrerNom">Entrez votre nom </string>
+    <string name="entreProfession">Entrez votre profession</string>
+    <string name="suivant">Suivant</string>
+    <string name="nom">Nom</string>
+    <string name="numero">Numero</string>
+    <string name="duration">duration</string>
+    <string name="date">date</string>
+    <string name="un">1</string>
+    <string name="deux">2</string>
+    <string name="trois">3</string>
+    <string name="quatre">4</string>
+    <string name="cinq">5</string>
+    <string name="six">6</string>
+    <string name="sept">7</string>
+    <string name="huit">8</string>
+    <string name="neuf">9</string>
+    <string name="zero">0</string>
+    <string name="diaize">#</string>
+    <string name="etoile">*</string>
+    <string name="titreApp">CallDetect</string>
+    <string name="commencer">Commencer</string>
+    <string name="entrezemail">Entrez votre e-mail</string>
+    <string name="mail_invalid">e-mail invalide</string>
+    <string name="empty_phone_value">entrer un numéro de téléphone</string>
+    <string name="error">numéro de téléphone incorrect</string>
+    <string name="s_inscrire">s\'inscrire</string>
+    <string name="connexion">se connecter</string>
+    <string name="save">Sauvegarder</string>
+    <string name="title_activity_home" tools:ignore="MissingTranslation">Home</string>
+    <string name="navigation_drawer_open" translatable="false" tools:ignore="MissingTranslation">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false" tools:ignore="MissingTranslation">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false" tools:ignore="MissingTranslation">Android Studio</string>
+    <string name="nav_header_subtitle" translatable="false" tools:ignore="MissingTranslation">android.studio@android.com</string>
+    <string name="nav_header_desc" translatable="false" tools:ignore="MissingTranslation">Navigation header</string>
+
+    <string name="menu_home" translatable="false" tools:ignore="MissingTranslation">Home</string>
+    <string name="menu_gallery" translatable="false" tools:ignore="MissingTranslation">Gallery</string>
+    <string name="menu_slideshow" translatable="false" tools:ignore="MissingTranslation">Slideshow</string>
+
+    <string name="loerm" translatable="false">Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum is simply dummy text of the printing and type setting industry.</string>
+
+    <string name="home_second" translatable="false" tools:ignore="MissingTranslation">Home Second</string>
+    <string name="pub_jour">Publicité du jour</string>
+    <string name="notification">Notification</string>
+    <string name="enregistrement">Enregistrement d\'appel</string>
+    <string name="FAQ">FAQ</string>
+    <string name="consult">Qui consulte mon profil</string>
+    <string name="sondage">Sondage/Enquetes Marketing</string>
+    <string name="invite">Inviter des amis</string>
+    <string name="setting">Paramètres</string>
+    <string name="compte_existe_deja">Ce compte existe deja connecteZ vous et utiliser normalement l\'app</string>
+    <string name="code_verification">Entrer le code de verification</string>
+    <string name="envoyer">Envoyer</string>
+    <string name="numero_inconnu">Ce numero n\'est pas reconnu par nos service Inscrivez-vous à coté</string>
+    <string name="app_mail">CallDetact@gmail.com</string>
+    <string name="wait">Patientez un instant…</string>
+    <string name="entrerPrenom">Entrer votre prenom</string>
+    <string name="disconnect">Déconnexion</string>
+    <string name="error_has_provide">Une erreur s\'est produite.</string>
+    <string name="send_code_msm">Pour la confirmation de votre authentification, un SMS vous sera envoyer au numero suivant :</string>
+    <string name="number_done">Modifier le numero</string>
+    <string name="resend_code">Renvoyer le SMS</string>
+    <string name="connect_you">Connecter vous maintenant .</string>
+    <string name="require_network">Vous n\'êtes pas connecté à un réseau internet. Veuillez activer votre connexion internet pour cette opération.</string>
+    <string name="OK">OK</string>
+    <string name="wrong_code">Le code doit contenir 6 chiffres.</string>
+    <string name="back">Retour</string>
+    <string name="user_condition">Condition d\'utilisation de l\'application.</string>
+    <string name="confidential">Termes de confidentialité de l\'application.</string>
+    <string name="nompersonne">nom</string>
+    <string name="details" translatable="false">Details</string>
+
+    <string name="appel">Appel</string>
+    <string name="user_status">numero</string>
+
+    <string name="clavier">Clavier</string>
+    <string name="silence" translatable="false">Silence</string>
+    <string name="haut">Haut-parleur</string>
+    <string name="aajout">Ajouter contact</string>
+    <string name="ajout">Autre appels</string>
+    <string name="enregistrer">Enregistrer</string>
+    <string name="attente">En Attente</string>
+    <string name="accepter">Accepter</string>
+    <string name="rejeter" translatable="false">refuse</string>
+    <string name="Son">Son</string>
+    <string name="Langue">Langue</string>
+    <string name="Identification" translatable="false">Identification</string>
+    <string name="Message" translatable="false">Message</string>
+    <string name="Bloquer">Bloquer</string>
+    <string name="Compte">Compte</string>
+    <string name="Apparence">Apparence</string>
+    <string name="Sauvegarde">Sauvegarde</string>
+    <string name="Enregistrement_appel">Enregistrement appel</string>
+    <string name="Centre_de_confidentialite">Centre de confidentialité</string>
+    <string name="A_propos">A propos</string>
+    <string name="General" translatable="false">General</string>
+    <string name="error_invalid_code">Le code de verification indiqué est incorrect, veuillez cliquer sur le bouton Renvoyer le SMS pour un nouveau code de vérification.</string>
+    <string name="error_not_connect">Votre téléphone n\'est pas connecté sur internet. Vérifier votre connexion.</string>
+    <string name="condition_utilisation">Condition d\'utilisation de l\'application</string>
+    <string name="contact_list">Liste de contacts</string>
+    <string name="send_message">Envoyer un message</string>
+    <string name="send_call">Evoyer une appel</string>
+    <string name="contact_info">Information sur le contact</string>
+    <string name="communication_history">Historique de la communication</string>
+    <string name="social_feeds">Réseaux sociaux</string>
+    <string name="abc" translatable="false">abc</string>
+    <string name="def" translatable="false">def</string>
+    <string name="ghi" translatable="false">ghi</string>
+    <string name="jkl" translatable="false">jkl</string>
+    <string name="mno" translatable="false">mno</string>
+    <string name="pqrs" translatable="false">pqrs</string>
+    <string name="tuv" translatable="false">tuv</string>
+    <string name="wxyz" translatable="false">wxyz</string>
+    <string name="plus" translatable="false">+</string>
+    <string name="_">"  "</string>
+    <string name="deleted">Supprimer</string>
+    <string name="_plus" translatable="false">+</string>
+
+    <string name="title_activity_start">Commencer</string>
+    <string name="set_profile">Veuillez indiquer vos informations personnelles pour permettre à cette application de fonctionner de manière performante.</string>
+    <string name="email">Adresse e-mail *</string>
+    <string name="name">Nom *</string>
+    <string name="surname">Prénom *</string>
+    <string name="password">Mot de passe</string>
+    <string name="other_phone_number">Autre numero de telephone</string>
+    <string name="validate">Valider</string>
+    <string name="copyright" translatable="false">©CopyRight - 2020</string>
+    <string name="error_name">Votre nom doit contenir au moins 3 caractères.</string>
+    <string name="error_surname">Votre prénom doit contenir au moins 3 caractères.</string>
+    <string name="error_mail">Votre adresse e-mail est incorrecte.</string>
+    <string name="requireFields">Veuillez indique les valeurs des champs obligatoires. Celles marquées avec une étoile</string>
+    <string name="profession">Profession *</string>
+    <string name="error_profession">La proféssion doit avoir au moins 3 caractères.</string>
+    <string name="chose_app">Selectionner une application pour le choix de votre profile.</string>
+    <string name="add_sucess">Ajouté avec succès…</string>
+    <string name="profil_config">Configuration Profile</string>
+    <string name="next">Continuer</string>
+    <string name="accept_condition">Accepter les conditions d\'utilisation de cette application.</string>
+    <string name="general">Géneral</string>
+    <string name="composer_call">Composer un numero</string>
+
+    <string name="open" translatable="false">Open</string>
+    <string name="close" translatable="false">Close</string>
+    <string name="confience">Merci de nous faire confiance  !</string>
+    <string name="verfiercode">Vérifiez   votre code de validité</string>
+    <string name="selectpays">Selectionnez un pays et recommencez !</string>
+    <string name="invalidenumber">Numero inconforme</string>
+    <string name="erreur">Un probléme est survenu ! Verifiez votre acces à internet</string>
+    <string name="invalidname">Renseignez correctement ce champ !</string>
+    <string name="souvenir">"Nous nous souvenons de vous ! "</string>
+    <string name="merciRevenir">"Nous vous remercions de nous avoir fait confiance et de revenir vers nous ! Profitez au max de nos fonctionnalitées . Tout notre  possible pour vous satisfaire "</string>
+    <string name="mail">adresse email :</string>
+    <string name="ouiCestMoi">Oui, c\'est moi !</string>
+    <string name="typeOfCompte">"Type de compte "</string>
+
+    <string name="verify_phone_number">Vérifier si votre numero de téléphone est correct ou utilisez un autre numéro de téléphone pour vous connecter.</string>
+    <string name="permission_rejected">Permission d\'accéder à la mémoire du téléphone refusée.</string>
+    <string name="wait_for_profile">Patienter que votre profile soit chargé avant toutes interactions dans cette page.</string>
+    <string name="update">Mise à jour avec succès.</string>
+    <string name="cancel">Annuler</string>
+    <string name="edition">Modification de profile</string>
+    <string name="min_description">Application de renseignement électronique. Elle permet de lutter contre l\'insécurité et le renseignement électronique.</string>
+    <string name="today">Aujourd\'hui</string>
+    <string name="yesterday">Hier</string>
+    <string name="edited_as_single">Dans ce formulaire, indiquer uniquement la nouvelle valeur de l\'élément que vous voulez modifier dans le champ correspondent.</string>
+    <string name="certify_user">Devenir utilisateur certifié</string>
+    <string name="at">à</string>
+    <string name="mobil" translatable="false">mobile</string>
+    <string name="favorite">Favoris</string>
+    <string name="not_allow_to_block_numbers">Vous n\'êtes pas autorisé à bloquer les contact dans ce téléphone.</string>
+    <string name="share">Partager</string>
+    <string name="invite_person">Inviter</string>
+    <string name="soud_setting">Parametre de son</string>
+    <string name="language_setting">Parametre de langue</string>
+    <string name="identification_setting">Parametre d\'identification</string>
+    <string name="message_setting">Paramtre de messagerie</string>
+    <string name="blocked_setting">Parametre de blockage</string>
+    <string name="appearance_setting">Parametre d\'apparance</string>
+    <string name="backup_setting">Parametre de sauvegarde de données</string>
+    <string name="call_save_setting">Parametre de sauvegarde d\'appels</string>
+    <string name="confidential_setting">Confidentialité de l\'application</string>
+    <string name="about">A propos de l\'application</string>
+    <string name="language">Langue</string>
+    <string name="sound">Son</string>
+    <string name="chose_theme">Choisir un theme</string>
+    <string name="language_chose">Langue choisit</string>
+    <string name="chose_language">Choisir une langue</string>
+    <string name="enter_contact_name">Entrer le nom du contact…</string>
+    <string name="msgencouragement">Vous y etes presque ! Entrez le code secret de confirmation et commencez à profiter pleinement de Call Detect</string>
+    <string name="shose_app">Choisir une application.</string>
+    <string name="message_send">Message envoyé !</string>
+    <string name="message_not_send">Echec de l\'envoie du messge !</string>
+    <string name="whatsapp_not_install">Vous n\'avez pas whatsapp installé dans votre téléphone !</string>
+    <string name="facebook_not_install">Vous n\'avez pas installé facebook dans votre téléphone !</string>
+    <string name="skype_not_install">Vous n\'avez pas l\'application *Skype* installé sur votre téléphone !</string>
+    <string name="number_not_register">Ce numero n\'est pas enregistré !</string>
+    <string name="impossible_to_send_sms">Impossible d\'envoyé un message à ce numéro.</string>
+    <string name="error_deletion">Impossible de supprimer le contact.</string>
+    <string name="remove_success">Retiré avec succès !</string>
+    <string name="add_to_contact">Ajouter aux contacts</string>
+    <string name="is_signal">Numero signalé</string>
+    <string name="not_signal">Erreur de signalisation</string>
+    <string name="this_number_is_already_signal">Déjà signalé.</string>
+    <string name="signal_be_careful">Ce contact à été signalé comme contact suspect, Faite attention.</string>
+    <string name="cameroon">Cameroun</string>
+    <string name="signalisation_for">Avertissement: </string>
+    <string name="has_signal_by_arna">"Ce numéro a été signalé comme étant un contact utilisé par une personne mal veillant. Faite attention."</string>
+    <string name="this_field_can_be_empty">Ce champ ne doit pas être vide.</string>
+    <string name="address">Entrer votre adresse</string>
+    <string name="error_birthday">Né(e) le *</string>
+    <string name="cni" translatable="false">CNI *</string>
+    <string name="deliver_date">Date de délivrance *</string>
+
+
+
+    <string name="ok">Ok</string>
+    <string name="message">Message</string>
+    <string name="scontact_blocquer">Contacts bloqués</string>
+    <string name="marquer_lu">Marquer comme lu</string>
+    <string name="archiver">Archivés</string>
+    <string name="supprimer">Supprimer</string>
+    <string name="null_select">0 selection(s)</string>
+    <string name="selection">selection(s)</string>
+    <string name="selectionContact">Selectionnez un contact</string>
+    <string name="rechecher">Recherché</string>
+    <string name="saisirContact">Saisir le contatct</string>
+    <string name="newMessage">Nouvelle discussion</string>
+    <string name="search">rechercher</string>
+    <string name="appeler">Appeller</string>
+    <string name="signalerBloquer">bloquer et Signaler comme indésirable</string>
+    <string name="saisirMessageTexte">Entrez le message...</string>
+    <string name="applicationDefaut">Application par Defaut</string>
+    <string name="msgApplicationDefault">Voulez - vous definir CallDetect comme application de messagerie par défaut ?</string>
+    <string name="non">Non</string>
+    <string name="inconnue">Un nouveau contact inconnu</string>
+    <string name="identification">Est ce vraiment la personne ?</string>
+    <string name="refuser">Non, pas lui</string>
+    <string name="confirmer">Oui, c\'est lui</string>
+    <string name="signaler">Signaler</string>
+    <string name="blocquer">Bloquer</string>
+    <string name="aideAmellioration">Aidez, nous a nous ameliorer ...</string>
+    <string name="sonNom">quel est son nom ?</string>
+    <string name="desactiverContact">Débloquer</string>
+    <string name="service_desc">CallDetect</string>
+    <string name="contactBlocque">Contact Blocqué</string>
+    <string name="repondre">Repondre</string>
+    <string name="confirmationsignalement">Contact signalé avec succes</string>
+    <string name="signalementExistant">Hello, ce contact à  deja été signalé !</string>
+    <string name="brouillon">Brouillon sauvegardé avec success !</string>
+    <string name="transferer">Transferer</string>
+    <string name="creerGroupeDiscu">Creer un groupe</string>
+    <string name="infoGroup">Informations du groupe</string>
+    <string name="supGroup">Supprimer le Groupe</string>
+    <string name="messageListMenbre">Information du groupe</string>
+    <string name="participant">Les participants du groupe</string>
+    <string name="Nbreparticipant">"Nombre de membre :  "</string>
+
+
+</resources>

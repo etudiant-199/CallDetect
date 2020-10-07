@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.calldetect">
+
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.USE_SIP" />
+    <uses-permission android:name="android.permission.ADD_VOICEMAIL" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.MANAGE_OWN_CALLS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.READ_BLOCK_NUMBERS"
+        android:protectionLevel="signature" />
+    <uses-permission
+        android:name="android.permission.WRITE_BLOCK_NUMBERS"
+        android:protectionLevel="signature" />
+    <uses-permission
+        android:name="android.permission.BROADCAST_SMS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.USE_SIP" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG" />
+    <uses-permission android:name="android.permission.ADD_VOICEMAIL" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.SMS_DELIVER" />
+    <uses-permission android:name="android.permission.RECEIVE_MMS" />
+    <uses-permission
+        android:name="android.permission.BIND_ACCESSIBILITY_SERVICE"
+        tools:ignore="ProtectedPermissions" />
+
+    <uses-permission android:name="android.permission.RECEIVE_WAP_PUSH" />
+    <uses-permission
+        android:name="android.permission.SEND_RESPOND_VIA_MESSAGE"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.intent.action.DATA_SMS_RECEIVED" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+
+
+
+    <application
+        android:name=".fragment.settings.SettingsApp"
+        android:allowBackup="true"
+        android:configChanges="orientation|keyboardHidden|screenSize|layoutDirection|locale"
+        android:icon="@mipmap/logopreface"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <!--        android:roundIcon="@mipmap/ic_launcher_round"-->
+
+
+        <activity android:name=".activities.GetProfile"></activity>
+        <activity
+            android:name=".activities.SettingsFragmentManager"
+            android:configChanges="orientation|keyboardHidden|screenSize|layoutDirection|locale"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".messageriePrincipale.messageCustomiser.Activity_message_personaliser" />
+        <activity
+            android:name=".messageriePrincipale.contact.Contact_messagerie"
+            android:configChanges="orientation|keyboardHidden|screenSize|layoutDirection|locale" />
+
+        <activity
+            android:name=".activities.ContactInfoActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|layoutDirection|locale"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.CallInfoActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|layoutDirection|locale"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.GeneralSetting"
+            android:configChanges="orientation|keyboardHidden|screenSize|layoutDirection|locale"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activities.CertificateUser"
+            android:configChanges="orientation|keyboardHidden|screenSize|layoutDirection|locale"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.Confirm"
+            android:configChanges="orientation|keyboardHidden|screenSize|layoutDirection|locale"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.Login"
+            android:configChanges="orientation|keyboardHidden|screenSize|layoutDirection|locale"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.Start"
+            android:configChanges="orientation|keyboardHidden|screenSize|layoutDirection|locale"
+            android:label="@string/app_name"
+            android:screenOrientation="nosensor">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.ConditionUtilisation"
+            android:configChanges="orientation|keyboardHidden|screenSize|layoutDirection|locale" />
+        <activity
+            android:name=".activities.Settings"
+            android:configChanges="orientation|keyboardHidden|screenSize|layoutDirection|locale"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.Profile"
+            android:configChanges="orientation|keyboardHidden|screenSize|layoutDirection|locale" />
+        <activity
+            android:name=".activities.CallActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|layoutDirection|locale"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.ListContact"
+            android:configChanges="orientation|keyboardHidden|screenSize|layoutDirection|locale"
+            android:label="@string/contact_list" />
+        <activity
+            android:name=".activities.Home"
+            android:configChanges="orientation|keyboardHidden|screenSize|layoutDirection|locale"
+            android:label="@string/title_activity_home"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.ComposerContact"
+            android:configChanges="orientation|keyboardHidden|screenSize|layoutDirection|locale"
+            android:label="@string/composer_call"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+
+
+        <activity android:name=".messageriePrincipale.infoGroupe.Info_groupe" />
+        <activity android:name=".messageriePrincipale.ContactBlocquer.Activity_contatct_Blocque" />
+
+        <activity android:name=".messageriePrincipale.ActivityMessaferiePrincipale">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <action android:name="android.intent.action.SENDTO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="sms" />
+                <data android:scheme="smsto" />
+                <data android:scheme="mms" />
+                <data android:scheme="mmsto" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <receiver
+            android:name=".messageriePrincipale.MyReceiverSMS2"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.RECEIVE_SMS">
+            <intent-filter android:priority="2147483647">
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name=".messageriePrincipale.MyReceiverSMS"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.BROADCAST_SMS">
+            <intent-filter android:priority="2147483647">
+                <action android:name="android.provider.Telephony.SMS_DELIVER" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name=".messageriePrincipale.MyReceiverMMS"
+            android:permission="android.permission.BROADCAST_WAP_PUSH">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.WAP_PUSH_DELIVER" />
+
+                <data android:mimeType="application/vnd.wap.mms-message" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name=".utils.InterceptCall">
+            <intent-filter>
+                <action android:name="android.intent.action.PHONE_STATE" />
+            </intent-filter>
+        </receiver>
+
+
+        <service android:name=".messageriePrincipale.notificationSMS.serviceNotificationMasquerLue" />
+
+        <service
+            android:name=".messageriePrincipale.smsDefault.ComposeSmsActiviy"
+            android:exported="true"
+            android:permission="android.permission.SEND_RESPOND_VIA_MESSAGE">
+            <intent-filter>
+                <action android:name="android.intent.action.RESPOND_VIA_MESSAGE" />
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+                <action android:name="android.provider.Telephony.SMS_DELIVER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="sms" />
+                <data android:scheme="smsto" />
+                <data android:scheme="mms" />
+                <data android:scheme="mmsto" />
+            </intent-filter>
+        </service>
+
+        <service android:name=".messageriePrincipale.notificationSMS.serviceNotification">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </service>
+
+        <service android:name=".services.CallService">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.provider.Telecom."/> -->
+            <!-- </intent-filter> -->
+        </service>
+
+    </application>
+
+</manifest>

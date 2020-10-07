@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/favorite_option"
+        android:contentDescription="@string/favorite"
+        android:enabled="true"
+        android:icon="@drawable/ic_favorite_add_option"
+        android:title="@string/favorite"
+        android:visible="true"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/block_option"
+        android:contentDescription="@string/Bloquer"
+        android:enabled="true"
+        android:icon="@drawable/ic_lock_on_option"
+        android:title="@string/Bloquer"
+        android:visible="true"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/signal_option"
+        android:contentDescription="@string/signaler"
+        android:enabled="true"
+        android:icon="@drawable/ic_warning"
+        android:title="@string/signaler"
+        android:visible="true"/>
+    <item
+        android:id="@+id/delete_option"
+        android:contentDescription="@string/deleted"
+        android:enabled="true"
+        android:icon="@drawable/delette"
+        android:title="@string/deleted"
+        android:visible="true" />
+    <item
+        android:id="@+id/share_option"
+        android:contentDescription="@string/share"
+        android:enabled="true"
+        android:icon="@drawable/ic_share"
+        android:title="@string/share"
+        android:visible="true" />
+    <item
+        android:id="@+id/invite_option"
+        android:contentDescription="@string/invite_person"
+        android:enabled="true"
+        android:icon="@drawable/ic_invite"
+        android:title="@string/invite_person"
+        android:visible="true" />
+</menu>

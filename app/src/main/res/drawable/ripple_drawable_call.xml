@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:radius="@dimen/google_1x"
+    android:color="@color/colorAccentDark"
+    tools:ignore="NewApi">
+
+    <item android:drawable="@drawable/call" >
+        <shape android:shape="oval">
+        </shape>
+    </item>
+
+</ripple>

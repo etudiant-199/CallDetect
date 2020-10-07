@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_gravity="center_vertical"
+    android:gravity="center_vertical">
+
+    <ImageView
+        android:id="@+id/imageSim"
+        android:layout_width="25sp"
+        android:layout_height="25sp"
+        android:src="@drawable/sim1"/>
+
+    <TextView
+        android:id="@+id/nom_sim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/noir"
+        android:text="sim cam"
+        android:paddingTop="25sp"
+        android:paddingBottom="25sp"
+        android:paddingRight="30sp"
+        android:paddingLeft="10sp"/>
+
+</LinearLayout>

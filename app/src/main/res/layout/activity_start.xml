@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/bg_color"
+    tools:context=".activities.Start">
+
+    <ImageView
+        android:id="@+id/icon_image"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="250sp"
+        android:layout_height="100sp"
+        app:srcCompat="@drawable/logo"
+        android:layout_gravity="center_horizontal"
+        tools:ignore="ContentDescription" />
+
+    <Button
+        android:id="@+id/start_btn_anim_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="100dp"
+        android:drawableEnd="@drawable/ic_right"
+        android:drawableTint="@color/colorPrimary"
+        android:text="@string/commencer"
+        android:visibility="gone"
+        tools:ignore="UnusedAttribute" />
+
+    <Button
+        android:id="@+id/start_btn_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:drawableEnd="@drawable/ic_right"
+        android:layout_marginBottom="100dp"
+        android:text="@string/commencer"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:paddingHorizontal="10dp"
+        android:textAlignment="gravity"
+        android:gravity="center"
+        android:fontFamily="cursive"
+        android:text="@string/min_description" />
+
+</FrameLayout>

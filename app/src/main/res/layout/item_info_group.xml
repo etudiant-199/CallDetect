@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="5sp"
+    android:layout_marginBottom="7sp">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/img_persornne_grp" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp">
+        <TextView
+            android:id="@+id/nomPersonne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Oswald"
+            android:textSize="17sp"
+            android:textColor="@color/noir" />
+        <TextView
+            android:id="@+id/numeroPersonne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+670857806"
+            android:layout_below="@id/nomPersonne"
+            android:textSize="16dp"
+            android:layout_marginTop="2sp"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

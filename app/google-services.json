@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "655839430542",
+    "firebase_url": "https://calldetect-id01.firebaseio.com",
+    "project_id": "calldetect-id01",
+    "storage_bucket": "calldetect-id01.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:655839430542:android:941279512a3da7be2846df",
+        "android_client_info": {
+          "package_name": "com.example.calldetect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "655839430542-dh5vkuptkgqvav8epqtiilmbre38ct9e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.calldetect",
+            "certificate_hash": "8a58a5542975248ce2cfbabd132b535f36941f56"
+          }
+        },
+        {
+          "client_id": "655839430542-8btf1b8u5os0kpuep27fmq76sb9ohar2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBj_M-EB2qYAzL35m-P6kdpECxpXuOelns"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "655839430542-8btf1b8u5os0kpuep27fmq76sb9ohar2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

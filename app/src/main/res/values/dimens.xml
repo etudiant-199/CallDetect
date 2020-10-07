@@ -1,0 +1,13 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">150dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="tablayout_height">160dp</dimen>
+    <dimen name="call_action_btn_height">80dp</dimen>
+    <dimen name="cat_topappbar_tall_toolbar_height">250dp</dimen>
+    <dimen name="actionBarSize">50dp</dimen>
+    <dimen name="feeds_icon_size">60dp</dimen>
+</resources>

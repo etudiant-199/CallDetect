@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:layoutDirection="inherit"
+        app:allowDividerAbove="true"
+        app:icon="@drawable/apparence"
+        app:key="theme_category"
+        app:title="Theme">
+
+        <ListPreference
+            app:defaultValue="default"
+            app:dialogTitle="@string/chose_theme"
+            app:entries="@array/theme_entries"
+            app:entryValues="@array/theme_entry_array_values"
+            app:key="key_theme_pref"
+            app:title="@string/chose_theme"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+</PreferenceScreen>

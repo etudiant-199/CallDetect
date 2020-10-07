@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.AppBarLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:elevation="0dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:theme="@style/AppTheme.AppBarOverlay"
+    tools:ignore="UnusedAttribute">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="5dp"
+        app:cardElevation="0dp"
+        app:cardBackgroundColor="@color/bg_color"
+        android:layout_height="@dimen/actionBarSize"
+        app:cardCornerRadius="10dp">
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="@string/app_name"
+            app:titleTextColor="@color/dark"
+            android:background="@color/transparant"
+            android:elevation="0dp"
+            app:titleMargin="0dp"
+            android:layout_marginVertical="8dp"
+            tools:ignore="UnusedAttribute">
+        </com.google.android.material.appbar.MaterialToolbar>
+    </com.google.android.material.card.MaterialCardView>
+
+</com.google.android.material.appbar.AppBarLayout>

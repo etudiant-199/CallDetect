@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".messageriePrincipale.infoGroupe.Info_groupe">
+    <include layout="@layout/toolbar_principal"/>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:orientation="vertical"
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="5sp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/noir"
+                android:text="@string/participant"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:layout_marginBottom="8sp"
+                android:layout_marginTop="8sp"/>
+
+            <TextView
+                android:id="@+id/nbreMenbre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="Nbre : "
+                android:layout_marginBottom="15sp"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+
+                android:id="@+id/recyclerViewInfoGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

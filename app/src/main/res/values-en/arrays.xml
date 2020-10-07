@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="listpays">
+        <item>Chose your country</item>
+        <item>Cameroon</item>
+        <item>France</item>
+        <item>Europa</item>
+        <item>Canada</item>
+    </string-array>
+
+    <string-array name="allProfessions">
+        <item>Student</item>
+        <item>Teacher</item>
+        <item>Developer</item>
+        <item>Others.</item>
+    </string-array>
+
+    <string-array name="contactOptions1">
+        <item>Add to favorites</item>
+        <item>Blocked</item>
+        <item>Deleted</item>
+        <item>Edited</item>
+        <item>Signal</item>
+    </string-array>
+
+    <string-array name="contactOptions2">
+        <item>Add to favorites</item>
+        <item>Blocked</item>
+        <item>Deleted</item>
+        <item>Edited</item>
+        <item>Signal</item>
+        <item>Add to contacts</item>
+    </string-array>
+
+    <string-array name="theme_entries">
+        <item>Light</item>
+        <item>Dark</item>
+        <item>Set by Battery Saver</item>
+    </string-array>
+
+    <string-array name="theme_entry_array_values">
+        <item>light</item>
+        <item>dark</item>
+        <item>default</item>
+    </string-array>
+
+    <string-array name="languages_entries">
+        <item>Français</item>
+        <item>English</item>
+    </string-array>
+
+    <string-array name="language_entry_array_values">
+        <item>fr</item>
+        <item>en</item>
+    </string-array>
+
+</resources>

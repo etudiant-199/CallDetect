@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".messageriePrincipale.messageCustomiser.Activity_message_personaliser">
+    <include layout="@layout/toolbar_principal"/>
+
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/conversation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="70sp" />
+
+
+
+
+
+
+
+
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:orientation="horizontal"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        android:backgroundTint="@color/transparant"-->
+    <!--        android:background="@color/transparant"-->
+    <!--        android:padding="7sp">-->
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="5sp"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+
+        <EditText
+            android:id="@+id/message"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="50sp"
+            android:layout_marginBottom="15sp"
+            android:background="@drawable/edit_textview"
+            android:backgroundTint="@color/grisTresclair"
+            android:hint="@string/saisirMessageTexte"
+            android:inputType="textMultiLine"
+            android:maxHeight="100dp"
+
+            android:paddingLeft="15sp"
+            android:paddingTop="10sp"
+            android:paddingBottom="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+
+        <Spinner
+            android:id="@+id/listSim"
+            android:layout_width="25sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginBottom="15sp"
+            android:background="@color/transparant"
+            android:backgroundTint="@color/transparant"
+            android:gravity="center_vertical"
+            android:paddingTop="20sp"
+            app:layout_constraintBottom_toBottomOf="@id/btnSendactif"
+            app:layout_constraintRight_toRightOf="@+id/message"
+            app:layout_constraintTop_toTopOf="@+id/btnSendactif" />
+
+
+        <ImageButton
+            android:id="@+id/btnSendactif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginBottom="14sp"
+            android:background="@color/transparant"
+            android:src="@mipmap/send_sm_actif"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageButton
+        android:id="@+id/btnSendpassif"
+        android:layout_width="45sp"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/send_sm_passif"
+        android:background="@color/transparant"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        tools:ignore="MissingConstraints" />
+
+
+    <!--            </LinearLayout>-->
+
+
+
+
+
+
+</RelativeLayout>

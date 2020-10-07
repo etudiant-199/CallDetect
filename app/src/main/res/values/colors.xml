@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#42A5F5</color>
+    <color name="colorPrimaryDarkTrans">#511195FF</color>
+    <color name="colorPrimaryDark">#156B91</color>
+    <color name="colorAccent">#29B6F6</color>
+    <color name="colorAccentLight">#29B6F6</color>
+    <color name="colorAccentDark">#0F818F</color>
+    <color name="bg_color">#FFFFFF</color>
+    <color name="dark">#575757</color>
+    <color name="darkActionBar">#575757</color>
+    <color name="transparant">#00FFFFFF</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="color_primary_overlay">#850EA9ED</color>
+    <color name="color_icon_overlay">#272727</color>
+    <color name="tintIconActionBar">#FFFFFF</color>
+    <color name="blanc">#ffff</color>
+    <color name="black">#000</color>
+    <color name="untransparent">#E0E0E0</color>
+    <color name="grisclair">#CFCFCF</color>
+    <color name="orangeTresclair">#FFDFCD</color>
+    <color name="orangeclair">#f9ad81</color>
+    <color name="orangeMoinsclair">#f68e56</color>
+    <color name="orangePur">#f26522</color>
+    <color name="orangeSombre">#a0410d</color>
+
+    <color name="green">#4FBE55</color>
+    <color name="gray">#949494</color>
+    <color name="darkLight">#DDDDDD</color>
+    <color name="editColor">#4B4B4B</color>
+    <color name="dividerColor">#7C5C5C5C</color>
+    <color name="danger">#F44336</color>
+    <color name="Rouge">#FF1100</color>
+
+
+
+
+    <color name="noir">#000</color>
+    <color name="blue_clair">#E4F6FD</color>
+    <color name="grisTresclair">#EAEAEA</color>
+</resources>

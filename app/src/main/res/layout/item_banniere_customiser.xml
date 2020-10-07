@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="5sp">
+
+    <LinearLayout
+        android:id="@+id/cadre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/colorAccentLight">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="75sp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="5sp"
+                android:layout_marginLeft="3sp">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/image_structure"
+                    android:layout_width="70sp"
+                    android:layout_height="70sp"
+                    android:src="@color/blanc"
+                    app:civ_border_color="@color/blanc"
+                    app:civ_border_width="2dp"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/textViewCircleImageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6"
+                    android:textSize="40sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/noir"
+                    app:layout_constraintTop_toTopOf="@id/image_structure"
+                    app:layout_constraintBottom_toBottomOf="@id/image_structure"
+                    app:layout_constraintRight_toRightOf="@+id/image_structure"
+                    app:layout_constraintLeft_toLeftOf="@id/image_structure"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="5sp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/inconnue"
+                    android:textSize="13sp"
+                    android:textColor="@color/blanc"
+                    android:maxLines="1"/>
+
+                <TextView
+                    android:id="@+id/label_numero"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nom | inconnu ???"
+                    android:textSize="25sp"
+                    android:textColor="@color/blanc"
+                    android:textStyle="bold"
+                    android:maxLines="1"/>
+
+                <TextView
+                    android:id="@+id/numero_banniere"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="670 85 78 06"
+                    android:textSize="20sp"
+                    android:textColor="@color/blanc"
+                    android:textStyle="bold"
+                    android:maxLines="1"/>
+            </LinearLayout>
+
+
+            <ImageButton
+                android:id="@+id/cancelBanniere"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/transparant"
+                android:foregroundGravity="right"
+                app:srcCompat="@drawable/img_close" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1sp"
+            android:background="@color/blanc"
+            android:layout_marginTop="8sp"
+            android:layout_marginBottom="5sp"
+            android:layout_marginLeft="6sp"
+            android:layout_marginRight="6sp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="@string/identification"
+            android:textColor="@color/blanc"
+            android:textSize="15sp"
+            android:maxLines="1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="2sp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/banniereConfirmer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparant"
+                    app:srcCompat="@drawable/img_confirmer" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/confirmer"
+                    android:textColor="@color/blanc"
+                    android:textSize="10sp"
+                    android:maxLines="1"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/banniereRefus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparant"
+                    app:srcCompat="@drawable/img_non" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/refuser"
+                    android:textColor="@color/blanc"
+                    android:textSize="10sp"
+                    android:maxLines="1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/banniereSignaler"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparant"
+                    app:srcCompat="@drawable/img_rias" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/signaler"
+                    android:textColor="@color/blanc"
+                    android:textSize="10sp"
+                    android:maxLines="1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/banniereBlocquer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparant"
+                    app:srcCompat="@drawable/img_blocque" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/blocquer"
+                    android:textColor="@color/blanc"
+                    android:textSize="10sp"
+                    android:maxLines="1"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1sp"
+            android:background="@color/blanc"
+            android:layout_marginTop="8sp"
+            android:layout_marginBottom="5sp"
+            android:layout_marginLeft="6sp"
+            android:layout_marginRight="6sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/aideAmellioration"
+                android:textColor="@color/blanc"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:maxLines="1"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5sp"
+                android:paddingBottom="8sp">
+
+                <EditText
+                    android:id="@+id/EditTextNom"
+                    android:layout_width="0sp"
+                    android:layout_height="40sp"
+                    android:layout_gravity="center"
+                    android:layout_weight="8"
+                    android:background="@drawable/edit_textview"
+                    android:backgroundTint="@color/blanc"
+                    android:gravity="center"
+                    android:hint="@string/sonNom"
+                    android:textColor="@color/noir"
+                    android:layout_marginLeft="3sp"/>
+
+                <Button
+                    android:id="@+id/btnSgdNom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40sp"
+                    android:background="@color/transparant"
+                    android:textColor="@color/blanc"
+                    android:text="@string/ok"
+                    android:textStyle="bold"
+                    android:textSize="18sp"/>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/banniereappeller"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:layout_weight="1"
+            android:background="@color/transparant"
+            app:srcCompat="@drawable/call" />
+
+        <ImageButton
+            android:id="@+id/banniereMessage"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:layout_weight="1"
+            android:background="@color/transparant"
+            app:srcCompat="@drawable/message" />
+
+        <ImageButton
+            android:id="@+id/banniereAjout"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:layout_weight="1"
+            android:background="@color/transparant"
+            app:srcCompat="@drawable/ic_people" />
+    </LinearLayout>
+
+
+</LinearLayout>

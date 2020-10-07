@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".activities.CallActivity">
+
+    <ImageButton
+        android:id="@+id/signale"
+        android:layout_width="@dimen/call_action_btn_height"
+        android:layout_height="@dimen/call_action_btn_height"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/btn_corner"
+        app:srcCompat="@drawable/ic_do_not_disturb_black_24dp"
+        android:paddingTop="5dp"
+        android:text="@string/signaler"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:background="@drawable/btn_corner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signale"
+        app:srcCompat="@drawable/ic_person_black_24dp"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/nomAppelant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nom Contact"
+        android:textSize="18sp"
+        android:textColor="@color/bg_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/icon" />
+
+    <TextView
+        android:id="@+id/Chrono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:text="00:00"
+        android:textSize="18sp"
+        android:textColor="@color/bg_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nomAppelant" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/rejeter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:outlineAmbientShadowColor="@color/dark"
+        app:backgroundTint="#FF0000"
+        app:elevation="6dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enregistrer"
+        app:rippleColor="@color/dark"
+        app:srcCompat="@drawable/ic_phone_black_24dp" />
+
+    <ImageButton
+        android:id="@+id/Ajout"
+        android:layout_width="@dimen/call_action_btn_height"
+        android:layout_height="@dimen/call_action_btn_height"
+        android:background="@drawable/btn_corner"
+        android:paddingTop="10dp"
+        android:text="@string/ajout"
+        android:textSize="12dp"
+        app:layout_constraintEnd_toStartOf="@+id/enregistrer"
+        app:layout_constraintBottom_toBottomOf="@+id/enregistrer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/enregistrer"
+        app:srcCompat="@drawable/ic_add_black_24dp"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/enregistrer"
+        android:layout_width="@dimen/call_action_btn_height"
+        android:layout_height="@dimen/call_action_btn_height"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btn_corner"
+        android:paddingTop="10dp"
+        android:text="@string/attente"
+        android:textSize="12dp"
+        app:layout_constraintEnd_toStartOf="@+id/clavier"
+        app:layout_constraintStart_toEndOf="@+id/Ajout"
+        app:layout_constraintTop_toBottomOf="@+id/Micro"
+        app:srcCompat="@drawable/ic_pause_black_24dp"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/clavier"
+        android:layout_width="@dimen/call_action_btn_height"
+        android:layout_height="@dimen/call_action_btn_height"
+        android:background="@drawable/btn_corner"
+        android:paddingTop="10dp"
+        android:text="@string/clavier"
+        app:layout_constraintBottom_toBottomOf="@+id/enregistrer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/enregistrer"
+        app:layout_constraintTop_toTopOf="@+id/enregistrer"
+        app:srcCompat="@drawable/ic_dialpad_black_24dp"
+        tools:ignore="ContentDescription" />
+
+
+    <ImageButton
+        android:id="@+id/attente"
+        android:layout_width="@dimen/call_action_btn_height"
+        android:layout_height="@dimen/call_action_btn_height"
+        android:background="@drawable/btn_corner"
+        android:paddingTop="10dp"
+        android:text="@string/enregistrer"
+        android:textSize="13dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Micro"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Micro"
+        app:layout_constraintEnd_toStartOf="@+id/Micro"
+        app:srcCompat="@drawable/ic_voicemail_black_24dp"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/Micro"
+        android:layout_width="@dimen/call_action_btn_height"
+        android:layout_height="@dimen/call_action_btn_height"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/btn_corner"
+        android:paddingTop="10dp"
+        android:text="@string/silence"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toStartOf="@+id/Haut_parleur"
+        app:layout_constraintStart_toEndOf="@+id/attente"
+        app:layout_constraintTop_toBottomOf="@+id/Chrono"
+        app:srcCompat="@drawable/ic_mic_off_black_24dp"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/Haut_parleur"
+        android:layout_width="@dimen/call_action_btn_height"
+        android:layout_height="@dimen/call_action_btn_height"
+        android:background="@drawable/btn_corner"
+        android:paddingTop="10dp"
+        android:text="@string/haut"
+        android:textSize="12dp"
+        app:layout_constraintStart_toEndOf="@+id/Micro"
+        app:layout_constraintBottom_toBottomOf="@+id/Micro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Micro"
+        app:srcCompat="@drawable/ic_volume_off_black_24dp"
+        tools:ignore="ContentDescription" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="@string/appeler"
+        android:id="@+id/appeler"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_call_new"/>
+    <item
+        android:id="@+id/bloquerNum"
+        android:title="@string/blocquer"/>
+    <item
+        android:id="@+id/signalerNum"
+        android:title="@string/signaler"/>
+    <item
+        android:id="@+id/bloquerEtSignaler"
+        android:title="@string/signalerBloquer"/>
+</menu>
